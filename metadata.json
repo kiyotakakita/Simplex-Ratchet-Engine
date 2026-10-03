@@ -1,0 +1,6 @@
+{
+  "name": "Simplex-Ratchet Engine",
+  "description": "シンプレックス法の限界価値定理と散逸ラチェット理論に基づく次世代LLM思考実験システム。ポテンシャル滑落からノイズ駆動による自律登攀へ。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
