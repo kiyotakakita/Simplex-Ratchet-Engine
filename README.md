@@ -42,14 +42,13 @@
 
 ---
 
-## 技術スタック (Tech Stack)
+##Tech Stack
 
-* **Frontend**: React, TypeScript, Next.js (App Router)
-* **Styling**: Tailwind CSS
-* **Animation**: Framer Motion, Lucide Icons
-* **Visualization**: Recharts
-* **LLM Engine**: Google Gen AI SDK (`@google/genai` / Gemini 1.5 Pro / Flash)
-
+* **LLM Engine**: Google Gen AI SDK (`@google/genai` v2.4.0)
+* **Models**: 
+  * Primary: `gemini-3.1-flash-lite` (低遅延・高応答性)
+  * Fallback: `gemini-flash-latest`, `gemini-3.8-flash`
+  * ※カスタムモデル指定（`customModel`）にも対応
 ---
 
 ## はじめかた (Getting Started)
